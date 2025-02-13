@@ -13,8 +13,7 @@ Welcome to the **Monte Carlo Option Pricer** – a Python-based GUI application 
 
 The Monte Carlo Option Pricer uses simulation techniques to estimate the price of European-style options. It supports multiple models, including:
 
-- **Geometric Brownian Motion (GBM):** The standard model for simulating stock prices.
-- The GBM model assumes that stock prices follow a log-normal distribution:
+- **Geometric Brownian Motion (GBM):** The standard model for simulating stock prices. The GBM model assumes that prices follow a log-normal distribution.
     - **dSₜ** = μ Sₜ dt + σ Sₜ dWₜ
     - **Sₜ** = Stock price at time t
     - **μ** = Expected return (drift term)
@@ -26,10 +25,10 @@ The Monte Carlo Option Pricer uses simulation techniques to estimate the price o
     - **Jₜ** = Jump size (log-normally distributed)
     - **dNₜ** = Poisson-distributed jump occurrences
 
-Built with:
-- **Tkinter** Interactive GUI
-- **Matplotlib** Visualizations (Histograms, Heatmaps, Simulations)
-- **NumPy** Fast numerical calculations.
+- **Built with:**
+    - **Tkinter:** Interactive GUI
+    - **Matplotlib:** Visualizations (Histograms, Heatmaps, Simulations)
+    - **NumPy:** Fast numerical calculations
 
 ## Features
 
@@ -43,7 +42,7 @@ Built with:
 
 ## Screenshot
 
-Below is a preview of the Monte Carlo Option Pricer in action.
+Below is a preview of the Monte Carlo Option Pricer in action:
 ![Monte Carlo Option Pricer GUI](screenshot.png)
 
 ## Installation
