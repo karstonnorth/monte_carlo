@@ -6,6 +6,7 @@ Welcome to the **Monte Carlo Option Pricer** – a Python-based GUI application 
 
 - [Overview](#overview)
 - [Features](#features)
+- [Screenshot](#screenshot)
 - [Models Implemented](#models-implemented)
 - [Installation](#installation)
 
@@ -14,17 +15,17 @@ Welcome to the **Monte Carlo Option Pricer** – a Python-based GUI application 
 The Monte Carlo Option Pricer uses simulation techniques to estimate the price of European-style options. It supports multiple models, including:
 
 - **Geometric Brownian Motion (GBM):** The standard model for simulating stock prices.
-The GBM model assumes that stock prices follow a log-normal distribution:
-dSₜ = μ Sₜ dt + σ Sₜ dWₜ
-Sₜ = Stock price at time t
-μ = Expected return (drift term)
-σ = Volatility (standard deviation of returns)
-dWₜ = Wiener process (Brownian motion)
+- The GBM model assumes that stock prices follow a log-normal distribution:
+- dSₜ = μ Sₜ dt + σ Sₜ dWₜ
+- Sₜ = Stock price at time t
+- μ = Expected return (drift term)
+- σ = Volatility (standard deviation of returns)
+- dWₜ = Wiener process (Brownian motion)
 
 - **Jump Diffusion:** Incorporates sudden jumps, capturing events like earnings surprises or market shocks.
-dSₜ = μ Sₜ dt + σ Sₜ dWₜ + Jₜ dNₜ
-Jₜ = Jump size (log-normally distributed)
-dNₜ = Poisson-distributed jump occurrences
+- dSₜ = μ Sₜ dt + σ Sₜ dWₜ + Jₜ dNₜ
+- Jₜ = Jump size (log-normally distributed)
+- dNₜ = Poisson-distributed jump occurrences
 
 Built with:
 - **Tkinter** Interactive GUI
@@ -40,6 +41,9 @@ Built with:
 - **Heatmap Visualization:** Examine the density of stock prices over time.
 - **Customizable Parameters:** Adjust simulations, jump diffusion parameters, and more.
 - **Save Plots:** Save your simulation plots for reporting or further analysis.
+
+## Screenshot
+![Monte Carlo Option Pricer GUI](screenshot.png)
 
 ## Models Implemented
 
